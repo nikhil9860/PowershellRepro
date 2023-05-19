@@ -6,8 +6,8 @@ $token = $open_id.token_endpoint
 
 $body = @{
 
-    client_id = ""
-    client_secret = ""
+    client_id = "###"
+    client_secret = "###"
     redirect_uri = "https://localhost"
     grant_type = "client_credentials"
     resource = "https://graph.microsoft.com"
